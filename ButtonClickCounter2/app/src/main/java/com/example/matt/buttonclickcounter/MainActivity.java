@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 if (numTimesClicked == 1) {
                     ourMessage.setText("The button got tapped " + total + " time");
                 } else {
-                    ourMessage.setText("The button got tapped " + total + " times. ZZ");
+                    ourMessage.setText("The button got tapped " + total + " times");
                 }
             }
         };
